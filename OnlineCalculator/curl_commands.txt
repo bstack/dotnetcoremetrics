@@ -1,0 +1,2 @@
+﻿$json = '{\"Number1\":23,\"Number2\":45,\"DelayInMilliseconds\":3000}'
+curl.exe -X POST "https://localhost:49157/Calculator/v1/add" -H 'Accept: application/json' -H 'Content-Type: application/json' -d $json
